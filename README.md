@@ -2,7 +2,7 @@
 
 to install libraries
 
-```pip install -r requirements.txt```
+```pip install -r requirement.txt```
 
 This script trains iris sample data (read from csv) and save trained model. Run the following command,
 
@@ -10,4 +10,5 @@ This script trains iris sample data (read from csv) and save trained model. Run 
 
 outputs the model named *model.pkl*. To use this model, run the following command,
 
-```python train-iris.py -m model.pkl```
+```python train-iris.py -m model.npz```
+
